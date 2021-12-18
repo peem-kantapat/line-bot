@@ -82,6 +82,10 @@ foreach ($request_json['events'] as $event)
 				$reply_message = "นายกันตพัฒน์ ขวัญสมคิด";
 			}
 			
+			if("แผนที่ google maps"==$text){
+				$reply_message = "https://goo.gl/maps/pYJRqyQyDYKyxfjs6";
+			}
+			
 			if("แผนที่ google maps แผนที่มาหาลัย KMUTT"==$text){
 				$reply_message = "https://goo.gl/maps/pYJRqyQyDYKyxfjs6";
 			}
