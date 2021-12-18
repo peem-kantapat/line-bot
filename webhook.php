@@ -24,7 +24,7 @@ foreach ($request_json['events'] as $event)
 				$reply_message = "นายกันตพัฒน์ ขวัญสมคิด";
 			}
 			
-			if("เส้นทางไปมหาวิทยาลัย"==$text){
+			if("link บอกเส้นทางไปมาหาลัย KMUTT"==$text){
 				$reply_message = "https://goo.gl/maps/pYJRqyQyDYKyxfjs6";
 			
 			}
