@@ -24,10 +24,85 @@ foreach ($request_json['events'] as $event)
 				$reply_message = "นายกันตพัฒน์ ขวัญสมคิด";
 			}
 			
+			if("ผู้พัฒนาระบบ"==$text){
+				$reply_message = "นายกันตพัฒน์ ขวัญสมคิด";
+			}
+			
+			if("เส้นทางไปมาหาลัย KMUTT"==$text){
+				$reply_message = "https://goo.gl/maps/pYJRqyQyDYKyxfjs6";
+			}
+			
+			if("บอกเส้นทางไปมาหาลัย KMUTT"==$text){
+				$reply_message = "https://goo.gl/maps/pYJRqyQyDYKyxfjs6";
+			}
+			
 			if("link บอกเส้นทางไปมาหาลัย KMUTT"==$text){
 				$reply_message = "https://goo.gl/maps/pYJRqyQyDYKyxfjs6";
-			
 			}
+			
+			if("ขอ link บอกเส้นทางไปมาหาลัย KMUTT"==$text){
+				$reply_message = "https://goo.gl/maps/pYJRqyQyDYKyxfjs6";
+			}
+			
+			if("มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี สร้างเมื่อไหร่"==$text){
+				$reply_message = "เมื่อวันที่ 4 กุมภาพันธ์ 2503";
+			}
+			
+			if("มาหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี สร้างเมื่อไหร่"==$text){
+				$reply_message = "เมื่อวันที่ 4 กุมภาพันธ์ 2503";
+			}
+			
+			if("แผนที่ google maps แผนที่มหาลัย KMUTT"==$text){
+				$reply_message = "https://goo.gl/maps/pYJRqyQyDYKyxfjs6";
+			}
+			
+			if("เส้นทางไปที่มหาลัย KMUTT"==$text){
+				$reply_message = "https://goo.gl/maps/pYJRqyQyDYKyxfjs6";
+			}
+			
+			if("ขอ link ลิงค์ บอกเส้นทางไปที่มหาลัย KMUTT"==$text){
+				$reply_message = "https://goo.gl/maps/pYJRqyQyDYKyxfjs6";
+			}
+			
+			if("แผนที่ google maps แผนที่มหาวิทยาลัย KMUTT"==$text){
+				$reply_message = "https://goo.gl/maps/pYJRqyQyDYKyxfjs6";
+			}
+			
+			if("เส้นทางไปที่มหาวิทยาลัย KMUTT"==$text){
+				$reply_message = "https://goo.gl/maps/pYJRqyQyDYKyxfjs6";
+			}
+			
+			if("ขอ link ลิงค์ บอกเส้นทางไปที่มหาวิทยาลัย KMUTT"==$text){
+				$reply_message = "https://goo.gl/maps/pYJRqyQyDYKyxfjs6";
+			}
+			
+			//
+			
+			if("บอกชื่อผู้พัฒนาระบบ"==$text){
+				$reply_message = "นายกันตพัฒน์ ขวัญสมคิด";
+			}
+			
+			if("แผนที่ google maps แผนที่มาหาลัย KMUTT"==$text){
+				$reply_message = "https://goo.gl/maps/pYJRqyQyDYKyxfjs6";
+			}
+			
+			if("เส้นทางไปที่มาหาลัย KMUTT"==$text){
+				$reply_message = "https://goo.gl/maps/pYJRqyQyDYKyxfjs6";
+			}
+			
+			if("ขอ link ลิงค์ บอกเส้นทางไปที่มาหาลัย KMUTT"==$text){
+				$reply_message = "https://goo.gl/maps/pYJRqyQyDYKyxfjs6";
+			}
+			
+			if("ประวัติความเป็นมาของมหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี"==$text){
+				$reply_message = "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรีสถาปนาขึ้นมาจากวิทยาลัยเทคนิค ธนบุรี ซึ่งเป็นวิทยาลัยในสังกัดกรมอาชีวศึกษา กระทรวงศึกษาธิการ เมื่อวันที่ 4 กุมภาพันธ์ 2503 และในปี 2514 ได้รวมกับวิทยาลัยเทคนิค พระนครเหนือ วิทยาลัยเทคนิคโทรคมนาคมเข้าด้วยกัน เป็นสถาบันเทคโนโลยีพระจอมเกล้า สังกัดกระทรวงศึกษาธิการ ต่อมาในปี 2517 ได้ยกฐานะ เป็นสถาบันอุดมศึกษาของรัฐ สังกัดทบวงมหาวิทยาลัย และในปี 2529 สถาบันเทคโนโลยีพระจอมเกล้าธนบุรี เป็นนิติบุคคล มีฐานะเป็นกรมในทบวงมหาวิทยาลัย ตามพระราชบัญญัติ สถาบันเทคโนโลยีพระจอมเกล้า เจ้าคุณทหารลาดกระบัง สถาบันเทคโนโลยีพระจอมเกล้าธนบุรี และสถาบันเทคโนโลยีพระจอมเกล้าพระนครเหนือ
+ปัจจุบันเปลี่ยนเป็นมหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี ตามพระราชบัญญัติ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี พ.ศ. 2541 ได้กำหนด ให้มีฐานะเป็น มหาวิทยาลัยของรัฐ ที่ไม่เป็นส่วนราชการ แต่อยู่ในกำกับดูแลของรัฐบาล และเป็นนิติบุคคล พระราชบัญญัติมหาวิทยาลัยเทคโนโลยี พระจอมเกล้าธนบุรี ได้รับการประกาศในราชกิจจานุเบกษา เล่มที่ 115 ตอนที่ 11 เมื่อวันที่ 6 มีนาคม 2541 มีผลบังคับใช้ตั้งแต่วันที่ 7 มีนาคม 2541";
+			}
+			
+			if("หาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี สร้างเมื่อไหร่"==$text){
+				$reply_message = "เมื่อวันที่ 4 กุมภาพันธ์ 2503";
+			}
+				
 			if(("covid-19"==$text) || ("Covid-19"==$text) || ("สถานการณ์โควิด"==$text) || ("สถานการณ์โควิดวันนี้"==$text)){
 				$reply_message = "ตายเพียบ!!!";
 				$result = file_get_contents('https://covid19.ddc.moph.go.th/api/Cases/today-cases-all');   // Get request content
