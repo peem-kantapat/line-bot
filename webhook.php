@@ -19,6 +19,9 @@ foreach ($request_json['events'] as $event)
 			if("ขอชื่อผู้พัฒนาระบบ"==$text){
 				$reply_message = "นายกันตพัฒน์ ขวัญสมคิด";
 			}
+			if("บอกชื่อผู้พัฒนาระบบ"==$text){
+				$reply_message = "นายกันตพัฒน์ ขวัญสมคิด";
+			}
 			if(("covid-19"==$text) || ("Covid-19"==$text) || ("สถานการณ์โควิด"==$text) || ("สถานการณ์โควิดวันนี้"==$text)){
 				$reply_message = "ตายเพียบ!!!";
 				$result = file_get_contents('https://covid19.ddc.moph.go.th/api/Cases/today-cases-all');   // Get request content
