@@ -20,6 +20,10 @@ foreach ($request_json['events'] as $event)
 				$reply_message = "นายกันตพัฒน์ ขวัญสมคิด";
 			}
 			
+			if("ชื่อผู้พัฒนาระบบ"==$text){
+				$reply_message = "นายกันตพัฒน์ ขวัญสมคิด";
+			}
+			
 			if("บอกชื่อผู้พัฒนาระบบ"==$text){
 				$reply_message = "นายกันตพัฒน์ ขวัญสมคิด";
 			}
