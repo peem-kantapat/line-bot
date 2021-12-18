@@ -68,6 +68,10 @@ foreach ($request_json['events'] as $event)
 				$reply_message = "https://goo.gl/maps/pYJRqyQyDYKyxfjs6";
 			}
 			
+			if("แผนที่มหาวิทยาลัย KMUTT"==$text){
+				$reply_message = "https://goo.gl/maps/pYJRqyQyDYKyxfjs6";
+			}
+			
 			if("เส้นทางไปที่มหาวิทยาลัย KMUTT"==$text){
 				$reply_message = "https://goo.gl/maps/pYJRqyQyDYKyxfjs6";
 			}
